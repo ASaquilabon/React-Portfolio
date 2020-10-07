@@ -10,7 +10,7 @@ import './portfolio.css'
 
 const HeaderText = styled.h1`
     padding-top: 40px;
-    text-align: right;
+    text-align: center;
     font-size: 3em;
 `;
 const ProjectTitle = styled.h2`

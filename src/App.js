@@ -3,7 +3,11 @@ import Hero from './components/hero/Hero';
 import About from './components/about/About';
 import Portfolio from './components/portfolio/Portfolio';
 import Quilt from './assets/images/darkquilt.png';
+import { Parallax } from "react-parallax";
 import styled, { createGlobalStyle } from 'styled-components';
+import Colombia from './assets/images/colombia2017.png';
+import Waikiki from './assets/images/Waikiki.png';
+import './App.css'
 
 const GlobalStyle = createGlobalStyle`
     html {
@@ -15,6 +19,7 @@ const GlobalStyle = createGlobalStyle`
     } 
     
 `;
+
 const Background = styled.div`
     background-image: url(${Quilt});
     color: #fff;
@@ -24,6 +29,7 @@ const Container = styled.div`
     margin: 0 auto;
     
 `;
+
 function App() {
   return (
     <div className="App">
@@ -32,8 +38,18 @@ function App() {
           <Hero />
           <Container>
             <About />
+            </Container>
+              <Parallax bgImage={Colombia} strength={900}>
+                <div style={{ height: 350 }}>
+                </div>
+              </Parallax>
+            <Container>
             <Portfolio />
-          </Container>
+            </Container>
+            <Parallax bgImage={Waikiki} strength={900}>
+                <div style={{ height: 350 }}>
+                </div>
+              </Parallax>
         </Background>
     </div>
   );
