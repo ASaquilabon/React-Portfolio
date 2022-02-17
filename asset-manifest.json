@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/React-Portfolio/static/css/main.cae237c4.css",
-    "main.js": "/React-Portfolio/static/js/main.41b919aa.js",
+    "main.js": "/React-Portfolio/static/js/main.d8285155.js",
     "static/media/archiesaquilabon.mp4": "/React-Portfolio/static/media/archiesaquilabon.b54eb498470f275ae2ed.mp4",
     "static/media/colombia2017.png": "/React-Portfolio/static/media/colombia2017.903fc1fca857dcbfde94.png",
     "static/media/TrynaEat.png": "/React-Portfolio/static/media/TrynaEat.f53195cc84e8fa6f3991.png",
@@ -12,12 +12,13 @@
     "static/media/GiphyAPI.png": "/React-Portfolio/static/media/GiphyAPI.d9c2181f15ad1aac20fd.png",
     "static/media/Linkedin.png": "/React-Portfolio/static/media/Linkedin.23cdcbc05266ec14af0f.png",
     "static/media/cartographer1.png": "/React-Portfolio/static/media/cartographer1.d60d81659f908a127aef.png",
+    "static/media/Wordle-Clone.jpg": "/React-Portfolio/static/media/Wordle-Clone.3a584873068c4d04f99d.jpg",
     "index.html": "/React-Portfolio/index.html",
     "main.cae237c4.css.map": "/React-Portfolio/static/css/main.cae237c4.css.map",
-    "main.41b919aa.js.map": "/React-Portfolio/static/js/main.41b919aa.js.map"
+    "main.d8285155.js.map": "/React-Portfolio/static/js/main.d8285155.js.map"
   },
   "entrypoints": [
     "static/css/main.cae237c4.css",
-    "static/js/main.41b919aa.js"
+    "static/js/main.d8285155.js"
   ]
 }
