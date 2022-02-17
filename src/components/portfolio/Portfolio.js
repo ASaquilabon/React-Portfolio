@@ -7,7 +7,7 @@ import { PopIn } from "react-spring-pop";
 import styled from "styled-components";
 import "./portfolio.css";
 import CookingWithReact from "../../assets/images/cooking-with-react.png";
-
+import WordleClone from "../../assets/images/Wordle-Clone.jpg";
 const HeaderText = styled.h1`
   padding-top: 40px;
   text-align: center;
@@ -34,6 +34,11 @@ const PortfolioContainer = styled.div`
   -webkit-box-shadow: 4px 7px 24px 4px rgba(0, 0, 0, 0.19);
   -moz-box-shadow: 4px 7px 24px 4px rgba(0, 0, 0, 0.19);
   box-shadow: 4px 7px 24px 4px rgba(0, 0, 0, 0.19);
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
 `;
 const Featured = styled.img`
   max-width: 1050px;
@@ -125,6 +130,27 @@ const Portfolio = () => {
         <Bottom>
           <PopIn tension="100" once="true" threshold="1" mass="3">
             <div class="content">
+              <a
+                href="https://asaquilabon.github.io/Wordle-Clone/"
+                target="_blank"
+              >
+                <div class="content-overlay"></div>
+                <Icons class="content-image" src={WordleClone} />
+                <div class="content-details fadeIn-top">
+                  <h3>Wordle Clone</h3>
+                  <h4>Technolgies Used:</h4>
+                  <UlText>
+                    <LiText>HTML + CSS</LiText>
+                    <LiText>ES6 Javascript</LiText>
+                    <LiText>CSS Grid + Flexbox </LiText>
+                    <LiText>CSS Keyframes + Animations</LiText>
+                  </UlText>
+                </div>
+              </a>
+            </div>
+          </PopIn>
+          <PopIn tension="100" once="true" threshold="1" mass="3">
+            <div class="content">
               <a href="https://asaquilabon.github.io/GiphyAPI/" target="_blank">
                 <div class="content-overlay"></div>
                 <Icons class="content-image" src={GiphyAPI} />
@@ -136,23 +162,6 @@ const Portfolio = () => {
                     <LiText>Giphy API</LiText>
                     <LiText>Javacript + JQuery</LiText>
                     <LiText>AJAX</LiText>
-                  </UlText>
-                </div>
-              </a>
-            </div>
-          </PopIn>
-          <PopIn tension="100" once="true" threshold="1" mass="3">
-            <div class="content">
-              <a href="http://urbanlastudio.com/" target="_blank">
-                <div class="content-overlay"></div>
-                <Icons class="content-image" src={UrbanLA} />
-                <div class="content-details fadeIn-top">
-                  <h3>UrbanLAStudio.com</h3>
-                  <h4>Technolgies Used:</h4>
-                  <UlText>
-                    <LiText>HTML + CSS</LiText>
-                    <LiText>Javascript</LiText>
-                    <LiText>W3 Schools CSS</LiText>
                   </UlText>
                 </div>
               </a>
